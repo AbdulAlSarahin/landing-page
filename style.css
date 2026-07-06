@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Roboto;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    flex: auto;
+    padding: 10px 0 100px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.content {
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+}
+
+.gallary {
+    display: flex;
+    gap : 50px;
+    justify-content: center;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    flex: 1;
+    padding: 100px;
+}
+
+.sign {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 50px;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3b82f6;
+    padding: 50px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+}
+
+.info {
+    flex: 1;
+    padding: 40px;
+}
+
+.pic p {
+    width: 200px;
+    
+}
+
+.content p {
+    width: 400px;
+
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.pic img {
+    border-radius: 20px;
+}
+
+.quote p {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote h5 {
+    width: 500px;
+    margin: 0 auto;
+    text-align: end;
+}
+
+.content img {
+    border-radius: 10px;
+}
+
+.text div {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.text p, a {
+    color: #e5e7eb
+}
+
+.head h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3b82f6;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #e5e7eb;
+    border: 2px solid #3b82f6;
+}
+
+.blue-box button {
+    border: 2px solid white;
+}
